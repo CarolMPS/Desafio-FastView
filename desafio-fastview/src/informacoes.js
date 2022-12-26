@@ -11,7 +11,18 @@ export const informacoes = [
         recebidosSemLeitura: 0
     },
     {
-        titulo: "Comunicado teste 1",
+        titulo: "Comunicado teste 2",
+        lojas: "Loja 1",
+        usuario: "Gustavo Pontes",
+        data: "07/12/2022",
+        termosECondicoes: "Não",
+        enviados: 1,
+        lidos: 1,
+        pendentes: 0,
+        recebidosSemLeitura: 0
+    },
+    {
+        titulo: "Comunicado teste 3",
         lojas: "Loja 1",
         usuario: "Gustavo Pontes",
         data: "07/12/2022",
@@ -143,7 +154,7 @@ export const informacoes = [
         recebidosSemLeitura: 0
     },
     {
-        titulo: "Comunicado teste 1",
+        titulo: "Comunicado teste 2",
         lojas: "Loja 1",
         usuario: "Gustavo Pontes",
         data: "07/12/2022",
@@ -154,7 +165,7 @@ export const informacoes = [
         recebidosSemLeitura: 0
     },
     {
-        titulo: "Comunicado teste 1",
+        titulo: "Comunicado teste 3",
         lojas: "Loja 1",
         usuario: "Gustavo Pontes",
         data: "07/12/2022",
@@ -165,7 +176,7 @@ export const informacoes = [
         recebidosSemLeitura: 0
     },
     {
-        titulo: "Comunicado teste 1",
+        titulo: "Comunicado teste 4",
         lojas: "Loja 1",
         usuario: "Gustavo Pontes",
         data: "07/12/2022",
@@ -176,7 +187,7 @@ export const informacoes = [
         recebidosSemLeitura: 0
     },
     {
-        titulo: "Comunicado teste 1",
+        titulo: "Comunicado teste 5",
         lojas: "Loja 1",
         usuario: "Gustavo Pontes",
         data: "07/12/2022",
@@ -187,7 +198,7 @@ export const informacoes = [
         recebidosSemLeitura: 0
     },
     {
-        titulo: "Comunicado teste 1",
+        titulo: "Comunicado teste 6",
         lojas: "Loja 1",
         usuario: "Gustavo Pontes",
         data: "07/12/2022",
@@ -198,7 +209,7 @@ export const informacoes = [
         recebidosSemLeitura: 0
     },
     {
-        titulo: "Comunicado teste 1",
+        titulo: "Comunicado teste 7",
         lojas: "Loja 1",
         usuario: "Gustavo Pontes",
         data: "07/12/2022",
@@ -209,7 +220,7 @@ export const informacoes = [
         recebidosSemLeitura: 0
     },
     {
-        titulo: "Comunicado teste 1",
+        titulo: "Comunicado teste 8",
         lojas: "Loja 1",
         usuario: "Gustavo Pontes",
         data: "07/12/2022",
@@ -220,18 +231,7 @@ export const informacoes = [
         recebidosSemLeitura: 0
     },
     {
-        titulo: "Comunicado teste 1",
-        lojas: "Loja 1",
-        usuario: "Gustavo Pontes",
-        data: "07/12/2022",
-        termosECondicoes: "Não",
-        enviados: 1,
-        lidos: 1,
-        pendentes: 0,
-        recebidosSemLeitura: 0
-    },
-    {
-        titulo: "Comunicado teste 1",
+        titulo: "Comunicado teste 9",
         lojas: "Loja 1",
         usuario: "Gustavo Pontes",
         data: "07/12/2022",
