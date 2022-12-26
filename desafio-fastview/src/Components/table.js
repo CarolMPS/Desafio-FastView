@@ -59,19 +59,19 @@ function TheTable() {
                                         {info.data}
                                     </td>
                                     <td>
-                                        "termos"
+                                        {info.termosECondicoes}
                                     </td>
                                     <td>
-                                        "enviados"
+                                        {info.enviados}
                                     </td>
                                     <td>
-                                        "lidos"
+                                        {info.lidos}
                                     </td>
                                     <td>
-                                        "pende"
+                                        {info.pendentes}
                                     </td>
                                     <td>
-                                        "rec"
+                                        {info.recebidosSemLeitura}
                                     </td>
                                     <td>
                                         < FaEye /> < FaWindowClose />
