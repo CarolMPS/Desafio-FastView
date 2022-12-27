@@ -1,5 +1,3 @@
-# Desafio-FastView
-Sistema do desafio da FastView
 # SOBRE
 
 O projeto é baseado em um desafio da empresa FastView, onde 
