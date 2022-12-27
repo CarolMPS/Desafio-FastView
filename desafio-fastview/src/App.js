@@ -1,16 +1,13 @@
-import React, { useState } from "react";
-import TheTable from "./Components/table";
-import ModalFocusAfterClose from "./Components/modal";
+import React from "react";
+import MainScreen from "./Components/mainScreen";
+
 
 
 function App() {
-    const [open, setOpen] = useState(false);
-    const toggle = () => setOpen(!open);
+    
   return (
     <div>
-      <button onClick={toggle}>ABRE</button>
-      <ModalFocusAfterClose toggle={toggle} open={open}/>
-      <TheTable />
+      <MainScreen />
     </div>
   );
 }

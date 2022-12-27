@@ -74,7 +74,12 @@ function TheTable() {
                                         {info.recebidosSemLeitura}
                                     </td>
                                     <td>
-                                        < FaEye /> < FaWindowClose />
+                                        <button>
+                                            < FaEye />
+                                        </button>
+                                        <button>
+                                            < FaWindowClose />
+                                        </button> 
                                     </td>
                         </tr>
                             )

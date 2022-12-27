@@ -1,16 +1,7 @@
 import React from 'react';
 import { Button, Modal, ModalBody, ModalFooter } from 'reactstrap';
-import styled from "styled-components"
-
-const ModalContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    gap: 20px
-`
-const DescriptionInput = styled.input`
-    height: 300px;
-    width: 465px;
-`
+import { BsChatTextFill, BsXLg } from "react-icons/bs";
+import {ModalContainer, DescriptionInput, ModalTitleContainer} from "./style";
 
 function ModalFocusAfterClose({toggle, open}){
 
@@ -18,15 +9,25 @@ function ModalFocusAfterClose({toggle, open}){
       <Modal isOpen={open}>
         <ModalBody>
             <ModalContainer>
+              <ModalTitleContainer>
                 <h2>
                     Novo Comunicado 
                 </h2>
+                <div>
+                <Button 
+                color="primary" 
+                onClick={toggle}
+                >
+                  <BsXLg />
+                </Button>
+                </div>
+              </ModalTitleContainer>
+                
                 <input 
                 type="text" 
                 placeholder="Título"
                 />
                 <DescriptionInput 
-                type="text"
                 placeholder="Descrição"
                 />
                 <input 
@@ -36,8 +37,11 @@ function ModalFocusAfterClose({toggle, open}){
             </ModalContainer>  
         </ModalBody>
         <ModalFooter>
-          <Button color="primary" onClick={toggle}>
-            x
+          <Button 
+            color="primary" 
+            onClick={toggle}
+            >
+            <BsChatTextFill/>
           </Button>
         </ModalFooter>
       </Modal>
